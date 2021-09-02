@@ -1,4 +1,5 @@
-const base = 'https://conduit.productionready.io/api';
+// const base = 'https://conduit.productionready.io/api';
+const base = 'http://localhost:TODO!';
 
 async function send({ method, path, data, token }) {
 	const opts = { method, headers: {} };
